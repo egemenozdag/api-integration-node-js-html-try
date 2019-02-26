@@ -1,0 +1,15 @@
+<html>
+<style>
+body{font-family: Arial, Helvetica, sans-serif;}
+input[type=text],input[type=password]{width:100%; padding: 12px 20px; margin:8px 0; display:inline-block; border:1px solid #ccc; box-sizing: border-box;}
+.but { background-colour:#00f1ff; color:black; padding:14px 20px; margin:8px 0; border: none; cursor: pointer; width:100%;}
+
+</style>
+<body>
+<form action="/login" method="POST">
+	<label  for="username"><b>USER NAME</b></label> <input type="text"  placeholder="Enter Username" name="username" required><br><br>
+	<label  for="password"><b>PASSWORD</b></label> <input type="password"  placeholder="Enter PASSWORD" name="password" required><br> <br>
+ <button class='but' type="submit"><b>LOGIN</b></button><br>
+</form>
+</body>
+</html>	
